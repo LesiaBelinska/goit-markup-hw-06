@@ -795,7 +795,8 @@ img {
   transition: fill var(--animation);
 }
 
-.button-close:hover .icon {
+.button-close:hover .icon,
+.button-close:focus .icon {
   fill: var(--accent-color);
 }
 
